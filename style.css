@@ -1,0 +1,83 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body{
+    background: #112573;
+    color: black;
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Cinzel', serif;
+    font-family: 'Fredoka One', cursive;
+}
+.contenedor{
+    width: 90%;
+    max-width: 1000px;
+    margin: 20px auto;
+    display: grid;
+    grid-gap:20px;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(4,auto);
+}
+.contenedor > div,
+.contenedor .header,
+.contenedor .contenido,
+.contenedor .sidebar,
+.contenedor .footer{
+    background: #FFFFFF;
+    padding: 20px;
+    border-radius: 4px;
+}
+.contenedor .header{
+    text-align: center;
+    background: #08133E;
+    color: #ffffff;
+    grid-column-start:1;
+    grid-column-end: 4;
+}
+.contenedor .contenido{
+    display: none;
+    grid-column: span 2;
+}
+.contenedor .sidebar{
+    grid-column: 3 / 4;
+    background: #08133E;
+    color:#FFFFFF;
+    text-align: center;
+    /*display: flex;
+    align-items: center;
+    justify-content: center;*/
+}
+.contenedor .contenido .titulo{
+    text-align: center;
+    margin: 10px;
+}
+.contenedor .footer{
+    background: #08133E;
+    color: #FFFFFF;
+    grid-column: span 3;
+    display: flex;
+    justify-content: center;
+}
+ul li{
+    display: flex;
+    font-size: 22px;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+}
+a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+a:hover{
+    color: red;
+}
+.parrafo{
+    text-align: justify;
+}
+.logo{
+    align-items: center;
+    width: 50%;
+    padding: 20%;
+}

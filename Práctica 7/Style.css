@@ -1,0 +1,73 @@
+
+body{
+    background-color: #524741;
+}
+.naviImg{
+    width: 8%; 
+}
+.navegation{
+    background-color: #221D1A;
+    display: inline-block;
+}
+ul{
+    text-align: right;
+}
+div  ul li{
+    display: inline-block;
+    font-size: 24px;
+    padding: 10px;
+}
+a{
+    text-decoration: none;
+    color: yellow;
+}
+a:hover{
+    color: white;
+}
+.segundo{
+    background-color: #E6AD2A;
+    display: inline-block;
+    text-align: center;
+}
+.imag2{
+    width: 80%;
+    height: 800px;
+    margin: 0 auto;
+}
+.tercero{
+    background-color: #221D1A;
+    height: 100px;
+    text-align: center;
+}
+.img1{
+    width: 100px;
+    height: 70px;
+    margin: 5px;
+}
+.img2{
+    width: 100px;
+    height: 70px;
+    margin: 5px;
+}
+.img3{
+    width: 100px;
+    height: 70px;
+    margin: 5px;
+}
+.img4{
+    width: 100px;
+    height: 70px;
+    margin: 5px;
+}
+.cuarto{
+    background-color: #D29E26;
+    width: 80%;
+    height: 200px;
+    margin: 0 auto;
+}
+.quinto{
+    background-color: #221D1A;
+    width: 80%;
+    height: 1200px;
+    margin: 0 auto;
+}

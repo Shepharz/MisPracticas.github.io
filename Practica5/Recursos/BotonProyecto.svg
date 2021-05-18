@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   inkscape:version="1.0.2-2 (e86c870879, 2021-01-15)"
+   id="svg839"
+   version="1.1"
+   viewBox="0 0 52.916539 23.812501"
+   height="90"
+   width="200"
+   sodipodi:docname="BotonProyecto.svg">
+  <defs
+     id="defs833" />
+  <sodipodi:namedview
+     units="px"
+     showgrid="false"
+     inkscape:document-rotation="0"
+     inkscape:current-layer="layer1"
+     inkscape:document-units="px"
+     inkscape:cy="25.955484"
+     inkscape:cx="95.405217"
+     inkscape:zoom="4"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata836">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     inkscape:groupmode="layer"
+     inkscape:label="Capa 1">
+    <path
+       id="rect1407"
+       style="opacity:1;fill:#000080;fill-rule:evenodd;stroke-width:0.275221;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
+       d="M 0.04145004,0.03864897 V 3.5131355 14.472515 20.290767 c 0,1.924933 1.50638596,3.474486 3.37769216,3.474486 H 49.530231 c 1.871304,0 3.378222,-1.549553 3.378222,-3.474486 V 14.472515 3.5131355 0.03864897 H 49.530231 3.4191422 Z" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:19.232px;line-height:1.25;font-family:'Luckiest Guy';-inkscape-font-specification:'Luckiest Guy Bold';stroke-width:0.480803"
+       x="2.8673184"
+       y="14.781128"
+       id="text1419"
+       transform="scale(0.61560494,1.6244184)"><tspan
+         sodipodi:role="line"
+         id="tspan1417"
+         x="2.8673184"
+         y="14.781128"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.4625px;font-family:'Press Start 2P';-inkscape-font-specification:'Press Start 2P Bold';stroke-width:0.480803">Inicio</tspan></text>
+  </g>
+</svg>

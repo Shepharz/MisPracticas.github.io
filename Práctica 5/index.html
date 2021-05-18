@@ -1,108 +1,159 @@
 <!DOCTYPE HTML>
-<html>
+<html lang="en">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<title>Untitled Document</title>
-<script type="text/javascript">
-function MM_swapImgRestore() { //v3.0
-  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
-}
-function MM_preloadImages() { //v3.0
-  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
-    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
-    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
-}
+  <meta charset="UTF-8">
+  <title>Untitled Document</title>
+  <script type="text/javascript">
+    function MM_swapImgRestore() { //v3.0
+      var i, x, a = document.MM_sr; for (i = 0; a && i < a.length && (x = a[i]) && x.oSrc; i++) x.src = x.oSrc;
+    }
+    function MM_preloadImages() { //v3.0
+      var d = document; if (d.images) {
+        if (!d.MM_p) d.MM_p = new Array();
+        var i, j = d.MM_p.length, a = MM_preloadImages.arguments; for (i = 0; i < a.length; i++)
+          if (a[i].indexOf("#") != 0) { d.MM_p[j] = new Image; d.MM_p[j++].src = a[i]; }
+      }
+    }
 
-function MM_findObj(n, d) { //v4.01
-  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
-    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
-  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
-  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
-  if(!x && d.getElementById) x=d.getElementById(n); return x;
-}
+    function MM_findObj(n, d) { //v4.01
+      var p, i, x; if (!d) d = document; if ((p = n.indexOf("?")) > 0 && parent.frames.length) {
+        d = parent.frames[n.substring(p + 1)].document; n = n.substring(0, p);
+      }
+      if (!(x = d[n]) && d.all) x = d.all[n]; for (i = 0; !x && i < d.forms.length; i++) x = d.forms[i][n];
+      for (i = 0; !x && d.layers && i < d.layers.length; i++) x = MM_findObj(n, d.layers[i].document);
+      if (!x && d.getElementById) x = d.getElementById(n); return x;
+    }
 
-function MM_swapImage() { //v3.0
-  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
-   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
-}
-</script>
-<style type="text/css">
-.hText {
-	color: #099;
-	background:#F1F8F1;
-	margin:0;
-}
-.hText {
-	font-family: Luckiest Guy;
-}
-.parrafo{
-	text-align:justify;
-	font-size:24px;
-	padding: 10px;
-}
-strong {
-	font-family: Luckiest Guy;
-}
-h1 {
-	font-family: Luckiest Guy;
-}
-</style>
+    function MM_swapImage() { //v3.0
+      var i, j = 0, x, a = MM_swapImage.arguments; document.MM_sr = new Array; for (i = 0; i < (a.length - 2); i += 3)
+        if ((x = MM_findObj(a[i])) != null) { document.MM_sr[j++] = x; if (!x.oSrc) x.oSrc = x.src; x.src = a[i + 2]; }
+    }
+  </script>
+  <style type="text/css">
+    .hText {
+      color: #099;
+      background: #F1F8F1;
+      margin: 0;
+    }
+
+    .hText {
+      font-family: Luckiest Guy;
+    }
+
+    .parrafo {
+      text-align: justify;
+      font-size: 24px;
+      padding: 10px;
+    }
+
+    strong {
+      font-family: Luckiest Guy;
+    }
+
+    h1 {
+      font-family: Luckiest Guy;
+    }
+  </style>
 </head>
 
-<body onLoad="MM_preloadImages('../Logotipo/Logotipo/Recursos/btn_Inicio_1.png','../Logotipo/Logotipo/Recursos/btn_Eventos_1.png','../Logotipo/Logotipo/Recursos/btn_Notice_1.png','../Logotipo/Logotipo/Recursos/btn_Contacto_1.png','../Logotipo/Logotipo/Recursos/Valorant2.jpg','../Logotipo/Logotipo/Recursos/Lol2.jpg')">
-<div align="center"><img src="../Logotipo/Logotipo/Recursos/Banner.png" width="1200" height="300">
-  <table width="356" border="0" cellspacing="10px">
-    <tr>
-      <td width="44" height="92"><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('botonInicio','','../Logotipo/Logotipo/Recursos/btn_Inicio_1.png',1)"><img src="../Logotipo/Logotipo/Recursos/btn_Inicio_0.png" name="botonInicio" width="200" height="90" border="0" id="botonInicio"></a></td>
-      <td width="44"><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('boton2','','../Logotipo/Logotipo/Recursos/btn_Eventos_1.png',1)"><img src="../Logotipo/Logotipo/Recursos/btn_Eventos_0.png" name="boton2" width="200" height="90" border="0" id="boton2"></a></td>
-      <td width="44"><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('botonNoticias','','../Logotipo/Logotipo/Recursos/btn_Notice_1.png',1)"><img src="../Logotipo/Logotipo/Recursos/btn_Notice_0.png" name="botonNoticias" width="200" height="90" border="0" id="botonNoticias"></a></td>
-      <td width="196"><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('botonContacto','','../Logotipo/Logotipo/Recursos/btn_Contacto_1.png',1)"><img src="../Logotipo/Logotipo/Recursos/btn_Contacto_0.png" name="botonContacto" width="200" height="90" border="0" id="botonContacto"></a></td>
-    </tr>
-  </table>
-  <h1 align="center" class="hText">El mundo del competitivo a tu alcanze</h1>
-  <p>&nbsp;</p>
-  <table width="1200" height="646" border="0">
-    <tr>
-      <th height="38" colspan="2" valign="middle" bgcolor="#F2F2F2"><h1 align="left"><strong>Valorat comienza a abrirse paso en los eSports</strong></h1></th>
-    </tr>
-    <tr>
-      <td width="800" height="600"><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Valorant','','../Logotipo/Logotipo/Recursos/Valorant2.jpg',1)"><img src="../Logotipo/Logotipo/Recursos/Valorant1.jpg" name="Valorant" width="800" height="600" border="0" id="Valorant"></a></td>
-      <td width="399" valign="top"><p align="center" class="parrafo">Luego de un mes de beta cerrada y ya con el juego en manos de todos los jugadores de Latinoamérica, hemos visto un interés abrumador del ecosistema por realizar torneos y tener competencias oficiales.
+<body
+  onLoad="MM_preloadImages('Recursos/btn_Inicio_1.png','Recursos/btn_Eventos_1.png','Recursos/btn_Notice_1.png','Recursos/btn_Contacto_1.png','Recursos/Valorant2.jpg','Recursos/Lol2.jpg')">
+  <div align="center"><img src="Recursos/Banner.png" width="1200" height="300">
+    <table width="356" border="0" cellspacing="10px">
+      <tr>
+        <td width="44" height="92"><a href="#" onMouseOut="MM_swapImgRestore()"
+            onMouseOver="MM_swapImage('botonInicio','','Recursos/btn_Inicio_1.png',1)"><img
+              src="Recursos/btn_Inicio_0.png" name="botonInicio" width="200" height="90" border="0"
+              id="botonInicio"></a></td>
+        <td width="44"><a href="#" onMouseOut="MM_swapImgRestore()"
+            onMouseOver="MM_swapImage('boton2','','Recursos/btn_Eventos_1.png',1)"><img
+              src="Recursos/btn_Eventos_0.png" name="boton2" width="200" height="90" border="0"
+              id="boton2"></a></td>
+        <td width="44"><a href="#" onMouseOut="MM_swapImgRestore()"
+            onMouseOver="MM_swapImage('botonNoticias','','Recursos/btn_Notice_1.png',1)"><img
+              src="Recursos/btn_Notice_0.png" name="botonNoticias" width="200" height="90"
+              border="0" id="botonNoticias"></a></td>
+        <td width="196"><a href="#" onMouseOut="MM_swapImgRestore()"
+            onMouseOver="MM_swapImage('botonContacto','','Recursos/btn_Contacto_1.png',1)"><img
+              src="Recursos/btn_Contacto_0.png" name="botonContacto" width="200" height="90"
+              border="0" id="botonContacto"></a></td>
+      </tr>
+    </table>
+    <h1 align="center" class="hText">El mundo del competitivo a tu alcanze</h1>
+    <p>&nbsp;</p>
+    <table width="1200" height="646" border="0">
+      <tr>
+        <th height="38" colspan="2" valign="middle" bgcolor="#F2F2F2">
+          <h1 align="left"><strong>Valorat comienza a abrirse paso en los eSports</strong></h1>
+        </th>
+      </tr>
+      <tr>
+        <td width="800" height="600"><a href="#" onMouseOut="MM_swapImgRestore()"
+            onMouseOver="MM_swapImage('Valorant','','Recursos/Valorant2.jpg',1)"><img
+              src="Recursos/Valorant1.jpg" name="Valorant" width="800" height="600" border="0"
+              id="Valorant"></a></td>
+        <td width="399" valign="top">
+          <p align="center" class="parrafo">Luego de un mes de beta cerrada y ya con el juego en manos de todos los
+            jugadores de Latinoamérica, hemos visto un interés abrumador del ecosistema por realizar torneos y tener
+            competencias oficiales.
 
-Es por eso que hoy estamos listos para contarles cómo se verá el escenario competitivo oficial de VALORANT para Latinoamérica durante este 2020, el cual tendrá diversas etapas y competencias (tanto abiertas como cerradas) para que los mejores jugadores de la región puedan demostrar todo su talento.
+            Es por eso que hoy estamos listos para contarles cómo se verá el escenario competitivo oficial de VALORANT
+            para Latinoamérica durante este 2020, el cual tendrá diversas etapas y competencias (tanto abiertas como
+            cerradas) para que los mejores jugadores de la región puedan demostrar todo su talento.
 
-Para nosotros en Riot Latinoamérica, es muy importante darle a todos los competidores de la región un panorama completo de competencia en 2020, para que se puedan preparar y vean que nuestro compromiso con ustedes es en serio.</p></td>
-    </tr>
-  </table>
-  <p>&nbsp;</p>
-  <table width="1200" border="0" id="0">
-    <tr>
-      <td height="38" colspan="2" valign="middle" bgcolor="#F2F2F2"><div align="right">
-        <h1 align="right"><strong>Comienza el competitivo de League of Legends</strong></h1>
-      </div></td>
-    </tr>
-    <tr>
-      <td width="514" valign="top"><p class="parrafo">El Red Bull Campus Clutch, el primer campeonato mundial universitario de VALORANT, está a la vuelta de la esquina y ya se han desvelado todos los detalles sobre la vertiente española del torneo, que determinará qué equipo nacional representará a España frente a los otros 52 países.
+            Para nosotros en Riot Latinoamérica, es muy importante darle a todos los competidores de la región un
+            panorama completo de competencia en 2020, para que se puedan preparar y vean que nuestro compromiso con
+            ustedes es en serio.</p>
+        </td>
+      </tr>
+    </table>
+    <p>&nbsp;</p>
+    <table width="1200" border="0" id="0">
+      <tr>
+        <td height="38" colspan="2" valign="middle" bgcolor="#F2F2F2">
+          <div align="right">
+            <h1 align="right"><strong>Comienza el competitivo de League of Legends</strong></h1>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td width="514" valign="top">
+          <p class="parrafo">El Red Bull Campus Clutch, el primer campeonato mundial universitario de VALORANT, está a
+            la vuelta de la esquina y ya se han desvelado todos los detalles sobre la vertiente española del torneo, que
+            determinará qué equipo nacional representará a España frente a los otros 52 países.
 
-La competición tiene un premio de 20 000 euros para el campeón global y la posibilidad de competir contra profesionales, pero antes de llegar a eso cada uno de los países participantes está acogiendo sus propios clasificatorios desde que el pasado 20 de febrero comenzaron países como Reino Unido y Letonia.</p>
-<p class="parrafo">&nbsp;</p></td>
-      <td width="800" height="600"><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image7','','../Logotipo/Logotipo/Recursos/Lol2.jpg',1)"><img src="../Logotipo/Logotipo/Recursos/Lol1.jpg" name="Image7" width="800" height="600" border="0" id="Image7"></a></td>
-    </tr>
-  </table>
-  <p>&nbsp;</p>
-  <table width="1200" border="0">
-    <tr>
-      <td height="40" bgcolor="#F2F2F2"><h1 align="center">Proximos eventos del 2021</h1></td>
-    </tr>
-    <tr>
-      <td height="419"><div align="center"><img src="../Logotipo/Logotipo/Recursos/Animacion.gif" width="500" height="350"></div></td>
-    </tr>
-    <tr>
-      <td height="34"><h5 align="center">Derechos reservados</h5></td>
-    </tr>
-  </table>
-  <p>&nbsp;</p>
-  <p>&nbsp;</p>
-</div>
+            La competición tiene un premio de 20 000 euros para el campeón global y la posibilidad de competir contra
+            profesionales, pero antes de llegar a eso cada uno de los países participantes está acogiendo sus propios
+            clasificatorios desde que el pasado 20 de febrero comenzaron países como Reino Unido y Letonia.</p>
+          <p class="parrafo">&nbsp;</p>
+        </td>
+        <td width="800" height="600"><a href="#" onMouseOut="MM_swapImgRestore()"
+            onMouseOver="MM_swapImage('Image7','','Recursos/Lol2.jpg',1)"><img
+              src="Recursos/Lol1.jpg" name="Image7" width="800" height="600" border="0"
+              id="Image7"></a></td>
+      </tr>
+    </table>
+    <p>&nbsp;</p>
+    <table width="1200" border="0">
+      <tr>
+        <td height="40" bgcolor="#F2F2F2">
+          <h1 align="center">Proximos eventos del 2021</h1>
+        </td>
+      </tr>
+      <tr>
+        <td height="419">
+          <div align="center"><img src="Recursos/Animacion.gif" width="500" height="350"></div>
+        </td>
+      </tr>
+      <tr>
+        <td height="34">
+          <h5 align="center">Derechos reservados</h5>
+        </td>
+      </tr>
+    </table>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+  </div>
 </body>
+
 </html>

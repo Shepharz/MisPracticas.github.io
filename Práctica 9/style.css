@@ -1,0 +1,35 @@
+.cabezera{
+    position: top;
+    height: 100px;
+    text-align: center;
+    background-color: red;
+    border-radius: 20px;
+}
+.navegation{
+    float: left;
+    height: 500px;
+    width: 200px;
+    background-color: blue;
+    border-radius: 20px;
+}
+.articulo{
+    position: absolute;
+    margin-left: 199px;
+	margin-right:199px;
+    height: 500px;
+    width: 1505px;
+    background-color: yellow;
+}
+.barralateral{
+    float: right;
+    height: 500px;
+    width: 200px;
+    background-color: aqua;
+    border-radius: 20px;
+}
+.piedepagina{
+    clear: both;
+    background-color: purple;
+    height: 100px;
+    border-radius: 20px;
+}

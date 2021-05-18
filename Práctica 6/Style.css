@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #F1F1F1;
+}
+.Banner{
+    
+    padding: 10px;
+}
+.imgLogo{
+    width: 20%;
+}
+ div nav ul li{
+   display: inline;
+   font-size: 24px;
+}
+.bt1{
+    color: rgb(14, 7, 7);
+    text-decoration: none;
+    background-color: #00917c;
+    border-radius: 1px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding: 10px;
+}
+.bt2{
+    color: rgb(14, 7, 7);
+    text-decoration: none;
+    background-color: #00917c;
+    border-radius: 1px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding: 10px;
+}
+.bt3{
+    color: rgb(14, 7, 7);
+    text-decoration: none;
+    background-color: #00917c;
+    border-radius: 1px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding: 10px;
+}
+.bt4{
+    color: rgb(14, 7, 7);
+    text-decoration: none;
+    background-color: #00917c;
+    border-radius: 1px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding: 10px;
+}
+div nav ul li a:hover{
+    color: rgb(255, 255, 255);
+    background-color:#025955;
+    transition: background-color 1.5s;
+}
+.vinos1{
+    width: 20%;
+    float: left;
+    padding: 40px;
+}
+.vinos2{
+    width: 20%;
+    float: right;
+    padding: 40px;
+}
+.titulo1{
+    font-family: 'Lobster', cursive;
+    color: #93329e;
+    font-size: 26px;
+    padding: 20px;
+}
+.titulo2{
+    text-align: center;
+    background-color: #ff7171;
+    border-radius: 20px;
+}
+.parrafo1{
+    padding: 10px;
+    font-size: 24px;
+}
+.margen1{
+    padding: 40px;
+}
+.titulo3{
+    text-align: center;
+    background-color: #ff7171;
+    border-radius: 20px;
+}
+.parrafo2{
+    padding: 10px;
+    font-size: 24px;
+}
+.margenMap{
+    padding: 40px;
+}
+.imagenMap{
+    width: 25%;
+    padding: 5px;
+}
+.titulo4{
+    color: #F1F1F1;
+    background: #93329e;
+}
+.bar{
+    color: #F1F1F1;
+    background: #93329e;
+    padding: 1px;
+    border-radius: 20px;
+    text-align: center;
+}
+.alin{
+    padding: 10px;
+}
+.c{
+    text-align: center;
+}
